@@ -12,13 +12,13 @@
 - [Ирина](https://github.com/Hodzhaeva) - Project Manger
 - [Вадим](https://github.com/abri-k) - Backend Developer
 - [Альберт](https://github.com/ProstoA) - Backend Devrloper
-- [Иван](https://github.com/QviNSteN) - Backend Devrloper ([главный единорожка](wiki/gulyaev))
+- [Иван](https://github.com/QviNSteN) - Backend Devrloper ([главный единорожка](https://github.com/fincase-unicorn-team/doc/wiki/gulyaev))
 - [Антон](https://github.com/ArtNekki) - Frontend Developer
 
 ## UI/UX
 
-- [sketch](wiki/sketch)
-- [colors](wiki/colors)
+- [sketch](https://github.com/fincase-unicorn-team/doc/wiki/sketch)
+- [colors](https://github.com/fincase-unicorn-team/doc/wiki/colors)
 
 ## Services
 
