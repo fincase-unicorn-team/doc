@@ -1,0 +1,47 @@
+pagePost-servie.
+
+Its service need for send posts and comments.
+
+Main link: /api/posts/
+
+Api:
+
+GET: /{id} - Получить пост с указанным id
+
+GET: /list/{tag} - Получить список постов для страницы с тегом - tag. Сортировка - сверху самые новые.
+Return model:
+List to elements:
+{
+  "PostId": int - Id поста
+  "UserId": int - Id пользователя кто его создал
+  "CreatedDate": DateTime - дата и время когда пост создан
+  "Message": string - сообщение написанное в посте
+  "PageTag": string - тег страницы к которой принадлежит пост
+}
+
+GET: /{id}/comments - Получить список комментариев для поста с указанным id. Сортировка - сверху самые новые.
+Return model:
+List to elements:
+{
+  "CommentId": int -  Id комментария
+  "PostId": int - Id поста
+  "CreatedDate": DateTime - дата и время создания коммента
+  "UserId": string - Id пользователя кто его создал
+  "Message": string - сообщение написанное в комменте
+}
+
+POST: /add - Создать пост
+Model:
+{
+  "UserId": int - Id пользователя кто создал пост
+  "Message": string - сообщение
+  "PageTag": strin - тег страницы к которой принадлежит пост
+ }
+ 
+ POST: /add-comment - Создать комментарий
+ Model:
+{
+  "UserId": int - Id пользователя кто создал коммент
+  "PostId": int - Id поста, которому принадлежит коммент
+  "Message": string - сообщение
+ }
