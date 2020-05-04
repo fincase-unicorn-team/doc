@@ -12,13 +12,13 @@
 - [Ирина](https://github.com/Hodzhaeva) - Project Manger
 - [Вадим](https://github.com/abri-k) - Backend Developer
 - [Альберт](https://github.com/ProstoA) - Backend Devrloper
-- [Иван](https://github.com/QviNSteN) - Backend Devrloper ([главный единорожка](gulyaev))
+- [Иван](https://github.com/QviNSteN) - Backend Devrloper ([главный единорожка](wiki/gulyaev))
 - [Антон](https://github.com/ArtNekki) - Frontend Developer
 
 ## UI/UX
 
-- [sketch](sketch)
-- [colors](colors)
+- [sketch](wiki/sketch)
+- [colors](wiki/colors)
 
 ## Services
 
